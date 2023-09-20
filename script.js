@@ -1,6 +1,3 @@
-document.querySelectorAll('.check-button').forEach(button => {
-    button.addEventListener('click', () => {
-      button.classList.toggle('checked');
-    });
-  });
-  
+function toggleCheck(button) {
+  button.classList.toggle("checked"); // Adiciona ou remove a classe "checked" do botão
+}
