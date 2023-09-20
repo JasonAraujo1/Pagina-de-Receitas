@@ -1,0 +1,29 @@
+/* Estilos para a lista */
+.checklist {
+    list-style: none;
+    padding: 0;
+}
+
+
+.checklist li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Estilos para os botões de check */
+.check-button {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: grey;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.check-button.checked {
+    ul {
+        list-style-image: url(''); /* Custom image as the marker */
+      }
+}
