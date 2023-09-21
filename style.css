@@ -16,6 +16,7 @@ body {
     font-family: 'Croissant One', cursive;
     height: 100vh;
     margin: 30px;
+
     
 }
 
@@ -23,7 +24,7 @@ body {
    border: 2px solid rgb(0, 255, 213);
    background-color:#fffcf1;
    border-radius: 1%;
-   height: 100vh;
+   min-height: 100vh;
    margin:50px auto;
    padding: 30px;
    max-width: 1280px;
@@ -35,7 +36,6 @@ body {
     display: block;
     width: 100%;
     max-height:300px;
-   
     border: 2px solid rgb(1, 224, 1); /* Adicionei a borda diretamente aqui */
     padding: 0;
     margin: 0 auto; /* Removi a margem para eliminar espaços em branco */
@@ -49,6 +49,7 @@ body {
     border: 1px solid red; /* Reduzi a largura da borda para 1px */
     padding: 25px 25px; /* Removi o padding para que a imagem preencha a borda */
     margin: 0; /* Removi a margem para que a borda fique mais próxima da imagem */
+    position: relative;
     
     
   }
@@ -87,6 +88,7 @@ figure figcaption{
 ul li{
     font-size: 16px;
     color:var(--p-text-color);
+    padding: 8px;
 }
 
 figure figcaption{
