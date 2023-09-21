@@ -40,25 +40,23 @@ body {
     object-fit: cover;
     border-radius: 10px;
     
-    
 }
   
-  figure {
+
+figure {
     padding: 25px 25px; /* Removi o padding para que a imagem preencha a borda */
     margin: 0; /* Removi a margem para que a borda fique mais próxima da imagem */
     position: relative;
-    
-    
   }
+
 
 figure figcaption{
    
    position: absolute;
    right: 0;
    padding: 0 35px;
-   
-   
 }
+
 
 .ingredients{
   right:440px;
@@ -72,9 +70,12 @@ figure figcaption{
     right:440px;
     width: 30px;
     margin: 10px 10px -8px;
-    
 }
 
+.handClick{
+    width: 50px;
+    margin-left: 20px ;
+}
 
 
 /*fonts*/
@@ -178,4 +179,16 @@ footer h2{
 footer h2{
     text-align: center;
     font-size: 20px;
+    padding: 50px 30px 20px;
+
 }
+
+
+
+
+
+
+
+
+
+
