@@ -1,15 +1,78 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background: #fffcf1;
+    font-family: 'Croissant One', cursive;
+    height: 100vh;
+}
 
-
-/*estilo imagem brownie*/
-
-#container figure img{
+/* Estilo para a imagem */
+ .fotao {
+    display: block;
     width: 100%;
-  max-width: 588px;
+    max-height:300px;
+    border-radius: 10px;
+    border: 2px solid green; /* Adicionei a borda diretamente aqui */
+    padding: 0 auto;
+    margin: 5px 20px; /* Removi a margem para eliminar espaços em branco */
+    object-fit: cover;
+    
+}
+  
+  figure {
+    border: 1px solid red; /* Reduzi a largura da borda para 1px */
+    padding: 0; /* Removi o padding para que a imagem preencha a borda */
+    margin: 0; /* Removi a margem para que a borda fique mais próxima da imagem */
+    
+  }
+
+figure figcaption{
+   
+   padding: 0 30px;
+   border: 2px solid blue;
+   
 }
 
 
+
+/*fonts*/
+#container h1{
+    text-align: center;
+    font-size: 28px;
+}
+
+#titles h2{
+    text-align: center;
+    font-size: 20px;
+    color: rgba(61, 5, 5, 0.774);
+}
+
+#titles h2 ul {
+    
+    font-size: 166px;
+}
+
+ul li{
+    font-size: 16px;
+}
+
+figure figcaption{
+    
+    font-size:14px;
+}
+
+footer p{
+    
+    font-size: 16px;
+}
+footer h2{
+    color: rgba(61, 5, 5, 0.774);
+}
 
 /* Estilos para os botões de check */
 
@@ -17,23 +80,25 @@
 .check-button {
     width: 20px;
     height: 20px;
-    border: 1px solid #000;
+    border: 1px solid #0000003a;
     border-radius: 50%;
     background-color: transparent;
     cursor: pointer;
     margin-right: 10px;
+    margin-left: 12px;
 }
 
 .check-button:hover {
     /* padding/animação do botão*/
-    outline: 6px solid #2980b9;
+    outline: 6px solid #297fb973 ;
     transition:  0.1s;
+    
 
   }
 
 /* Estilos para o botão de check quando estiver marcado */
 .check-button.checked {
-    background: url('./assets/check.svg') center/cover rgb(111, 230, 111);
+    background: url('./assets/check.svg') center/cover rgba(7, 146, 146, 0.966);
     width: 20px; /* Largura desejada */
     height: 20px; /* Altura desejada */
 }
@@ -50,4 +115,10 @@
     align-items: center;
     margin-bottom: 10px;
    
+}
+
+
+footer h2{
+    text-align: center;
+    font-size: 20px;
 }

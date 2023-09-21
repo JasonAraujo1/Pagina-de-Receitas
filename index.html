@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!--aqui vai as fontes do google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+
+
+
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,26 +19,42 @@
     <div id="container">
         <h1>Receita de Brownie</h1>
         <figure>
-            <img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1925&q=80" alt="Texto descritivo da imagem" />
-            <figcaption>Adicionar aqui a legenda da imagem</figcaption>
+            <img class="fotao" src="./assets/browniePhoto.jpg" alt="quatro brownies amontoados em uma pilha e uma calda de chocolate caindo por cima deles. 
+            Tudo acontece em cima de uma superfície verde e fundo desfodado"/>
+            <figcaption>Receita de Brownie caseiro</figcaption>
          </figure>
     </div>
 
-
-    <h2>Ingredientes</h2>
+    <div id="titles">
+        <h2>Ingredientes</h2>
     
-    <ul class="checklist">
-        <li>
+        <ul class="checklist">
+         <li>
             <button class="check-button" onclick="toggleCheck(this)"></button>
             Item 1
-        </li>
-        <li>
-            <button class="check-button" onclick="toggleCheck(this)"></button>
-            Item 2
-        </li>
+            </li>
+            <li>
+                <button class="check-button" onclick="toggleCheck(this)"></button>
+             Item 2
+            </li>
         <!-- Adicione mais itens conforme necessário -->
-    </ul>
+        </ul>
+
+
+        <h2>Modo de preparo</h2>
     
+        <ol class="checklist">
+         <li>
+            <button class="check-button" onclick="toggleCheck(this)"></button>
+            Item 1
+            </li>
+            <li>
+                <button class="check-button" onclick="toggleCheck(this)"></button>
+             Item 2
+            </li>
+        <!-- Adicione mais itens conforme necessário -->
+        </ol>
+    </div>
     
     
 
