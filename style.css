@@ -94,7 +94,8 @@ footer h2{
 
 
 .check-button {
-    width: 20px;
+    display: flex;
+    min-width: 20px;
     height: 20px;
     border: 1px solid #0000003a;
     border-radius: 50%;
@@ -102,6 +103,7 @@ footer h2{
     cursor: pointer;
     margin-right: 10px;
     margin-left: 12px;
+    
 }
 
 .check-button:hover {
@@ -117,8 +119,9 @@ footer h2{
     background: url('./assets/check.svg') center/cover rgba(7, 146, 146, 0.966);
     width: 20px; /* Largura desejada */
     height: 20px; /* Altura desejada */
-    
+    text-decoration: line-through;
 }
+
 
 
 /* Estilos para a lista */
@@ -133,6 +136,10 @@ footer h2{
     align-items: center;
     margin-bottom: 10px;
    
+}
+
+.checklist li.checked {
+    text-decoration: line-through;
 }
 
 
