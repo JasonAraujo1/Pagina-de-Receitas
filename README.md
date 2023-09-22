@@ -37,11 +37,11 @@ Esta página de receita de brownie foi desenvolvida com o objetivo de aprimorar 
 ## 🔖 Layout
 
 - Layout cuidadosamente planejado para aprimorar a experiência visual.
-</br> 
+
 - Elementos dispostos para facilitar a leitura das instruções e visualização das imagens.
-</br>
+
 - Cores suaves e imagens apetitosas criam um ambiente convidativo.
-</br>
+
 - Botões e elementos integrados à lista de ingredientes para organização e experiência aprimorada.
 
 
